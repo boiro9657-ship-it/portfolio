@@ -79,10 +79,11 @@ langFills.forEach(el => langObserver.observe(el));
 
 /* ---------- Typed role text ---------- */
 const roles = [
+  'Étudiant en informatique',
+  'Développeur web',
   'Graphiste',
   'Créateur de contenu',
-  'Entrepreneur digital',
-  'Étudiant en informatique'
+  'Entrepreneur digital'
 ];
 const typedEl = document.getElementById('typed');
 let roleIndex = 0;
